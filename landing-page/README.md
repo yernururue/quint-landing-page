@@ -16,7 +16,13 @@ http://localhost:3000
 
 ## Deploy To Vercel
 
-From this folder:
+From the repository root:
+
+```bash
+npx vercel --prod
+```
+
+Or from this folder:
 
 ```bash
 npm install
@@ -30,4 +36,4 @@ npx vercel --prod
 ```
 
 If importing through the Vercel dashboard, set the project root to this
-`landing-page` folder. No framework preset is needed.
+repository root or to this `landing-page` folder. No framework preset is needed.
