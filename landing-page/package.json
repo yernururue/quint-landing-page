@@ -1,0 +1,10 @@
+{
+  "name": "quint-landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx vercel dev",
+    "build": "echo \"Static site: no build step required\"",
+    "start": "python3 -m http.server 3000"
+  }
+}
