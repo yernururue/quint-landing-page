@@ -1,0 +1,4 @@
+.vercel
+.env*
+.screenshots_for_demo
+.gstack/

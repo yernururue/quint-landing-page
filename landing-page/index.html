@@ -53,65 +53,11 @@
           <div class="product-visual" aria-label="Quint product preview">
             <div class="visual-orbit visual-orbit-one"></div>
             <div class="visual-orbit visual-orbit-two"></div>
-            <div class="app-shell">
-              <div class="app-topbar">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <div class="app-body">
-                <aside class="chat-list" aria-label="Connected Telegram sources">
-                  <div class="chat-item active">
-                    <span class="chat-dot"></span>
-                    <div>
-                      <strong>Product Updates</strong>
-                      <small>1,248 messages</small>
-                    </div>
-                  </div>
-                  <div class="chat-item">
-                    <span class="chat-dot"></span>
-                    <div>
-                      <strong>Founder Chat</strong>
-                      <small>Today</small>
-                    </div>
-                  </div>
-                  <div class="chat-item">
-                    <span class="chat-dot"></span>
-                    <div>
-                      <strong>News Channels</strong>
-                      <small>7 sources</small>
-                    </div>
-                  </div>
-                </aside>
-                <section class="insight-panel">
-                  <div class="panel-header">
-                    <span>Digest</span>
-                    <strong>Last 24 hours</strong>
-                  </div>
-                  <article class="summary-card">
-                    <p>What changed</p>
-                    <h2>3 launch notes, 2 risks, 1 decision request.</h2>
-                  </article>
-                  <div class="signal-list">
-                    <div>
-                      <span>01</span>
-                      <p>Pricing discussion moved to Friday after new metrics.</p>
-                    </div>
-                    <div>
-                      <span>02</span>
-                      <p>Important competitor update shared in two channels.</p>
-                    </div>
-                    <div>
-                      <span>03</span>
-                      <p>Design feedback mentions onboarding friction again.</p>
-                    </div>
-                  </div>
-                  <div class="search-preview">
-                    <span>Search by meaning</span>
-                    <p>"Where did we discuss launch risks?"</p>
-                  </div>
-                </section>
-              </div>
+            <div class="screenshot-back">
+              <img src="dashboard-digest.png" alt="Quint digest channels view" />
+            </div>
+            <div class="screenshot-front">
+              <img src="dashboard-summarizer.png" alt="Quint summarizer dashboard" />
             </div>
           </div>
         </div>
@@ -210,6 +156,7 @@
       <span>Telegram intelligence layer for people who read too much.</span>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
